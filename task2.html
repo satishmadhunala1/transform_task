@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .box1 {
+      display: inline-block;
+      position: relative;
+      top: 400px;
+      left: 300px;
+      width: 20px;
+      height: 50px;
+      background-color: yellow;
+      position: relative;
+      animation-name: a;
+      animation-duration: 0.50s;
+      animation-iteration-count: infinite;
+    }
+
+    .box2 {
+      display: inline-block;
+      position: relative;
+      top: 400px;
+      left: 300px;
+      width: 20px;
+      height: 50px;
+      background-color: blue;
+      animation-name: b;
+      animation-duration: 0.55s;
+      animation-iteration-count: infinite;
+    
+    }
+
+    .box3 {
+      display: inline-block;
+      position: relative;
+      top: 400px;
+      left: 300px;
+      width: 20px;
+      height: 50px;
+      background-color: rgb(222, 18, 18);
+
+      animation-name: c;
+      animation-duration: 0.45s;
+      animation-iteration-count: infinite;
+  
+    }
+    .box4 {
+      display: inline-block;
+      position: relative;
+      top: 400px;
+      left: 300px;
+      width: 20px;
+      height: 50px;
+      background-color: green;
+      animation-name: d;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+  
+    }
+
+    @keyframes a {
+  25%{
+    transform: scaleY(.6);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.8);
+  }
+}
+
+@keyframes b {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.6);
+  }
+}
+@keyframes c {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(1.2);
+  }
+}
+
+@keyframes d {
+  25%{
+    transform: scaleY(.6);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.8);
+  }
+}
+
+  </style>
+  <body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+  </body>
+</html>

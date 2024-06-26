@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .dot1 {
+      display: inline-block;
+      position: relative;
+      top: 400px;
+      left: 300px;
+      width: 30px;
+      height: 30px;
+      background-color: yellow;
+
+      animation-name: a;
+      animation-duration: 0.60s;
+      animation-iteration-count: infinite;
+      border-radius: 50%;
+      animation-timing-function: ease;
+      animation-direction: alternate-reverse;
+    }
+
+    .dot2 {
+      display: inline-block;
+      position: relative;
+      top: 400px;
+      left: 300px;
+      width: 30px;
+      height: 30px;
+      background-color: blue;
+
+      animation-name: b;
+      animation-duration: 0.63s;
+      animation-iteration-count: infinite;
+      border-radius: 50%;
+      animation-timing-function: ease;
+      animation-direction: alternate-reverse;
+    }
+
+    .dot3 {
+      display: inline-block;
+      position: relative;
+      top: 400px;
+      left: 300px;
+      width: 30px;
+      height: 30px;
+      background-color: rgb(222, 18, 18);
+
+      animation-name: c;
+      animation-duration: 0.66s;
+      animation-iteration-count: infinite;
+      border-radius: 50%;
+      animation-timing-function: ease;
+      animation-direction: alternate-reverse;
+    }
+    .dot4 {
+      display: inline-block;
+      position: relative;
+      top: 400px;
+      left: 300px;
+      width: 30px;
+      height: 30px;
+      background-color: green;
+
+      animation-name: d;
+      animation-duration: 0.69s;
+      animation-iteration-count: infinite;
+      border-radius: 50%;
+      animation-timing-function: ease;
+      animation-direction: alternate-reverse;
+    }
+
+    @keyframes a {
+      0% {
+        transform: translate(0px, 0px);
+      }
+
+      100% {
+        transform: translate(0px, -40px);
+      }
+    }
+    @keyframes b {
+      0% {
+        transform: translate(0px, 0px);
+      }
+
+      100% {
+        transform: translate(0px, -38px);
+      }
+    }
+    @keyframes c {
+      0% {
+        transform: translate(0px, 0px);
+      }
+
+      100% {
+        transform: translate(0px, -35px);
+      }
+    }
+
+    @keyframes d {
+      0% {
+        transform: translate(0px, 0px);
+      }
+
+      100% {
+        transform: translate(0px, -32px);
+      }
+    }
+  </style>
+  <body>
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+    <div class="dot3"></div>
+    <div class="dot4"></div>
+  </body>
+</html>
